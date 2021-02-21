@@ -1,0 +1,26 @@
+{
+    "name": "chenmoye/core",
+    "type": "library",
+    "description": "chenmoye PHP core development library",
+    "homepage": "",
+    "keywords": [
+        "chenmoye"
+    ],
+    "authors": [
+        {
+            "name": "ChenMoye"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ],
+        "psr-4": {
+            "Chenmoye\\Core\\": "src"
+        }
+    }
+}
